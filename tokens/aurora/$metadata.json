@@ -1,0 +1,19 @@
+{
+  "tokenSetOrder": [
+    "1. Core/Global",
+    "2. Dimensions/radius.Rounded",
+    "2. Dimensions/radius.SemiRounded",
+    "2. Dimensions/radius.Sharp",
+    "2. Font/Base",
+    "2. Font/Dice",
+    "2. Font/Unstyled",
+    "2. Theme/theme.Base",
+    "2. Theme/theme.Contests",
+    "2. Theme/theme.SlotsParadise",
+    "2. Theme/theme.Unstyled",
+    "2. Theme/theme.VegasAces",
+    "2. Theme/theme.Casino",
+    "3. Mode/Dark",
+    "3. Mode/Default"
+  ]
+}

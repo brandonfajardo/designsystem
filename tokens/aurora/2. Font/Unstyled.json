@@ -1,0 +1,110 @@
+{
+  "font-display": {
+    "value": "Inter",
+    "type": "fontFamilies"
+  },
+  "font-heading": {
+    "value": "Inter",
+    "type": "fontFamilies"
+  },
+  "font-body": {
+    "value": "Roboto",
+    "type": "fontFamilies"
+  },
+  "font-caption": {
+    "value": "Roboto",
+    "type": "fontFamilies"
+  },
+  "font-action": {
+    "value": "Nexa",
+    "type": "fontFamilies"
+  },
+  "font-light": {
+    "value": "light",
+    "type": "fontWeights"
+  },
+  "font-regular": {
+    "value": "Regular",
+    "type": "fontWeights"
+  },
+  "font-medium": {
+    "value": "Medium",
+    "type": "fontWeights"
+  },
+  "font-bold": {
+    "value": "Bold",
+    "type": "fontWeights"
+  },
+  "font-heavy": {
+    "value": "Heavy",
+    "type": "fontWeights"
+  },
+  "text-xxs": {
+    "value": "0.625 * {rem}",
+    "type": "fontSizes"
+  },
+  "text-xs": {
+    "value": "0.75 * {rem}",
+    "type": "fontSizes"
+  },
+  "text-sm": {
+    "value": "0.875 * {rem}",
+    "type": "fontSizes"
+  },
+  "text-base": {
+    "value": "1 * {rem}",
+    "type": "fontSizes"
+  },
+  "text-lg": {
+    "value": "1.125 * {rem}",
+    "type": "fontSizes"
+  },
+  "text-xl": {
+    "value": "1.25 * {rem}",
+    "type": "fontSizes"
+  },
+  "text-2xl": {
+    "value": "1.5 * {rem}",
+    "type": "fontSizes"
+  },
+  "text-3xl": {
+    "value": "1.875 * {rem}",
+    "type": "fontSizes"
+  },
+  "text-3xl-plus": {
+    "value": "2 * {rem}",
+    "type": "fontSizes"
+  },
+  "text-4xl": {
+    "value": "2.25 * {rem}",
+    "type": "fontSizes"
+  },
+  "text-4xl-plus": {
+    "value": "2.5 * {rem}",
+    "type": "fontSizes"
+  },
+  "text-5xl": {
+    "value": "3 * {rem}",
+    "type": "fontSizes"
+  },
+  "text-6xl": {
+    "value": "3.75 * {rem}",
+    "type": "fontSizes"
+  },
+  "text-7xl": {
+    "value": "4.5 * {rem}",
+    "type": "fontSizes"
+  },
+  "text-8xl": {
+    "value": "6 * {rem}",
+    "type": "fontSizes"
+  },
+  "text-8xl-plus": {
+    "value": "6.4375 * {rem}",
+    "type": "fontSizes"
+  },
+  "text-9xl": {
+    "value": "8 * {rem}",
+    "type": "fontSizes"
+  }
+}

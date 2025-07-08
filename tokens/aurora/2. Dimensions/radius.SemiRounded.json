@@ -1,0 +1,945 @@
+{
+  "px": {
+    "0": {
+      "value": "roundTo({multiplier.px} * 0 / {factor.p} * {factor.p})",
+      "type": "number"
+    },
+    "1": {
+      "value": "roundTo({multiplier.px} * 1 / {factor.p} * {factor.p})",
+      "type": "number"
+    },
+    "2": {
+      "value": "roundTo({multiplier.px} * 2 / {factor.p} * {factor.p})",
+      "type": "number"
+    },
+    "3": {
+      "value": "roundTo({multiplier.px} * 3 / {factor.p} * {factor.p})",
+      "type": "number"
+    },
+    "4": {
+      "value": "roundTo({multiplier.px} * 4 / {factor.p} * {factor.p})",
+      "type": "number"
+    },
+    "5": {
+      "value": "roundTo({multiplier.px} * 5 / {factor.p} * {factor.p})",
+      "type": "number"
+    },
+    "6": {
+      "value": "roundTo({multiplier.px} * 6 / {factor.p} * {factor.p})",
+      "type": "number"
+    },
+    "7": {
+      "value": "roundTo({multiplier.px} * 7 / {factor.p} * {factor.p})",
+      "type": "number"
+    },
+    "8": {
+      "value": "roundTo({multiplier.px} * 8 / {factor.p} * {factor.p})",
+      "type": "number"
+    },
+    "9": {
+      "value": "roundTo({multiplier.px} * 9 / {factor.p} * {factor.p})",
+      "type": "number"
+    },
+    "10": {
+      "value": "roundTo({multiplier.px} * 10 / {factor.p} * {factor.p})",
+      "type": "number"
+    },
+    "11": {
+      "value": "roundTo({multiplier.px} * 11 / {factor.p} * {factor.p})",
+      "type": "number"
+    },
+    "12": {
+      "value": "roundTo({multiplier.px} * 12 / {factor.p} * {factor.p})",
+      "type": "number"
+    },
+    "14": {
+      "value": "roundTo({multiplier.px} * 14 / {factor.p} * {factor.p})",
+      "type": "number"
+    },
+    "16": {
+      "value": "roundTo({multiplier.px} * 16 / {factor.p} * {factor.p})",
+      "type": "number"
+    },
+    "20": {
+      "value": "roundTo({multiplier.px} * 20 / {factor.p} * {factor.p})",
+      "type": "number"
+    },
+    "24": {
+      "value": "roundTo({multiplier.px} * 24 / {factor.p} * {factor.p})",
+      "type": "number"
+    },
+    "28": {
+      "value": "roundTo({multiplier.px} * 28 / {factor.p} * {factor.p})",
+      "type": "number"
+    },
+    "32": {
+      "value": "roundTo({multiplier.px} * 32 / {factor.p} * {factor.p})",
+      "type": "number"
+    },
+    "36": {
+      "value": "roundTo({multiplier.px} * 36 / {factor.p} * {factor.p})",
+      "type": "number"
+    },
+    "40": {
+      "value": "roundTo({multiplier.px} * 40 / {factor.p} * {factor.p})",
+      "type": "number"
+    },
+    "44": {
+      "value": "roundTo({multiplier.px} * 44 / {factor.p} * {factor.p})",
+      "type": "number"
+    },
+    "48": {
+      "value": "roundTo({multiplier.px} * 48 / {factor.p} * {factor.p})",
+      "type": "number"
+    },
+    "52": {
+      "value": "roundTo({multiplier.px} * 52 / {factor.p} * {factor.p})",
+      "type": "number"
+    },
+    "56": {
+      "value": "roundTo({multiplier.px} * 56 / {factor.p} * {factor.p})",
+      "type": "number"
+    },
+    "60": {
+      "value": "roundTo({multiplier.px} * 60 / {factor.p} * {factor.p})",
+      "type": "number"
+    },
+    "64": {
+      "value": "roundTo({multiplier.px} * 64 / {factor.p} * {factor.p})",
+      "type": "number"
+    },
+    "72": {
+      "value": "roundTo({multiplier.px} * 72 / {factor.p} * {factor.p})",
+      "type": "number"
+    },
+    "80": {
+      "value": "roundTo({multiplier.px} * 80 / {factor.p} * {factor.p})",
+      "type": "number"
+    },
+    "96": {
+      "value": "roundTo({multiplier.px} * 96 / {factor.p} * {factor.p})",
+      "type": "number"
+    },
+    "px": {
+      "value": "1",
+      "type": "number"
+    },
+    "0-5": {
+      "value": "roundTo({multiplier.px} * 0.5 / {factor.p} * {factor.p})",
+      "type": "number"
+    },
+    "1-5": {
+      "value": "roundTo({multiplier.px} * 1.5 / {factor.p} * {factor.p})",
+      "type": "number"
+    },
+    "2-5": {
+      "value": "roundTo({multiplier.px} * 2.5 / {factor.p} * {factor.p})",
+      "type": "number"
+    },
+    "3-5": {
+      "value": "roundTo({multiplier.px} * 3.5 / {factor.p} * {factor.p})",
+      "type": "number"
+    }
+  },
+  "factor": {
+    "p": {
+      "value": "2",
+      "type": "other"
+    },
+    "space": {
+      "value": "2",
+      "type": "other"
+    },
+    "rounded": {
+      "value": "2",
+      "type": "other"
+    },
+    "h": {
+      "value": "2",
+      "type": "other"
+    },
+    "w": {
+      "value": "2",
+      "type": "other"
+    }
+  },
+  "multiplier": {
+    "px": {
+      "value": "0.5 * {rem}",
+      "type": "other"
+    },
+    "py": {
+      "value": "0.5 * {rem}",
+      "type": "other"
+    },
+    "space-x": {
+      "value": "0.25 * {rem}",
+      "type": "other"
+    },
+    "space-y": {
+      "value": "0.5 * {rem}",
+      "type": "other"
+    },
+    "h": {
+      "value": "0.25 * {rem}",
+      "type": "other"
+    },
+    "w": {
+      "value": "0.25 * {rem}",
+      "type": "other"
+    }
+  },
+  "Formula": {
+    "value": "roundTo({multiplier} * number / {factor} * {factor})",
+    "type": "other",
+    "description": "Multiply the token number by multiplier, then divide the result by factor, and finally multiply it again by factor, then round the result."
+  },
+  "py": {
+    "0": {
+      "value": "roundTo({multiplier.py} * 0 / {factor.p} * {factor.p})",
+      "type": "number"
+    },
+    "1": {
+      "value": "roundTo({multiplier.py} * 1 / {factor.p} * {factor.p})",
+      "type": "number"
+    },
+    "2": {
+      "value": "roundTo({multiplier.py} * 2 / {factor.p} * {factor.p})",
+      "type": "number"
+    },
+    "3": {
+      "value": "roundTo({multiplier.py} * 3 / {factor.p} * {factor.p})",
+      "type": "number"
+    },
+    "4": {
+      "value": "roundTo({multiplier.py} * 4 / {factor.p} * {factor.p})",
+      "type": "number"
+    },
+    "5": {
+      "value": "roundTo({multiplier.py} * 5 / {factor.p} * {factor.p})",
+      "type": "number"
+    },
+    "6": {
+      "value": "roundTo({multiplier.py} * 6 / {factor.p} * {factor.p})",
+      "type": "number"
+    },
+    "7": {
+      "value": "roundTo({multiplier.py} * 7 / {factor.p} * {factor.p})",
+      "type": "number"
+    },
+    "8": {
+      "value": "roundTo({multiplier.py} * 8 / {factor.p} * {factor.p})",
+      "type": "number"
+    },
+    "9": {
+      "value": "roundTo({multiplier.py} * 9 / {factor.p} * {factor.p})",
+      "type": "number"
+    },
+    "10": {
+      "value": "roundTo({multiplier.py} * 10 / {factor.p} * {factor.p})",
+      "type": "number"
+    },
+    "11": {
+      "value": "roundTo({multiplier.py} * 11 / {factor.p} * {factor.p})",
+      "type": "number"
+    },
+    "12": {
+      "value": "roundTo({multiplier.py} * 12 / {factor.p} * {factor.p})",
+      "type": "number"
+    },
+    "14": {
+      "value": "roundTo({multiplier.py} * 14 / {factor.p} * {factor.p})",
+      "type": "number"
+    },
+    "16": {
+      "value": "roundTo({multiplier.py} * 16 / {factor.p} * {factor.p})",
+      "type": "number"
+    },
+    "20": {
+      "value": "roundTo({multiplier.py} * 20 / {factor.p} * {factor.p})",
+      "type": "number"
+    },
+    "24": {
+      "value": "roundTo({multiplier.py} * 24 / {factor.p} * {factor.p})",
+      "type": "number"
+    },
+    "28": {
+      "value": "roundTo({multiplier.py} * 28 / {factor.p} * {factor.p})",
+      "type": "number"
+    },
+    "32": {
+      "value": "roundTo({multiplier.py} * 32 / {factor.p} * {factor.p})",
+      "type": "number"
+    },
+    "36": {
+      "value": "roundTo({multiplier.py} * 36 / {factor.p} * {factor.p})",
+      "type": "number"
+    },
+    "40": {
+      "value": "roundTo({multiplier.py} * 40 / {factor.p} * {factor.p})",
+      "type": "number"
+    },
+    "44": {
+      "value": "roundTo({multiplier.py} * 44 / {factor.p} * {factor.p})",
+      "type": "number"
+    },
+    "48": {
+      "value": "roundTo({multiplier.py} * 48 / {factor.p} * {factor.p})",
+      "type": "number"
+    },
+    "52": {
+      "value": "roundTo({multiplier.py} * 52 / {factor.p} * {factor.p})",
+      "type": "number"
+    },
+    "56": {
+      "value": "roundTo({multiplier.py} * 56 / {factor.p} * {factor.p})",
+      "type": "number"
+    },
+    "60": {
+      "value": "roundTo({multiplier.py} * 60 / {factor.p} * {factor.p})",
+      "type": "number"
+    },
+    "64": {
+      "value": "roundTo({multiplier.py} * 64 / {factor.p} * {factor.p})",
+      "type": "number"
+    },
+    "72": {
+      "value": "roundTo({multiplier.py} * 72 / {factor.p} * {factor.p})",
+      "type": "number"
+    },
+    "80": {
+      "value": "roundTo({multiplier.py} * 80 / {factor.p} * {factor.p})",
+      "type": "number"
+    },
+    "96": {
+      "value": "roundTo({multiplier.py} * 96 / {factor.p} * {factor.p})",
+      "type": "number"
+    },
+    "px": {
+      "value": "1",
+      "type": "number"
+    },
+    "0-5": {
+      "value": "roundTo({multiplier.py} * 0.5 / {factor.p} * {factor.p})",
+      "type": "number"
+    },
+    "1-5": {
+      "value": "roundTo({multiplier.py} * 1.5 / {factor.p} * {factor.p})",
+      "type": "number"
+    },
+    "2-5": {
+      "value": "roundTo({multiplier.py} * 2.5 / {factor.p} * {factor.p})",
+      "type": "number"
+    },
+    "3-5": {
+      "value": "roundTo({multiplier.py} * 3.5 / {factor.p} * {factor.p})",
+      "type": "number"
+    }
+  },
+  "space-x": {
+    "0": {
+      "value": "roundTo({multiplier.space-x} * 0 / {factor.space} * {factor.space})",
+      "type": "number"
+    },
+    "1": {
+      "value": "roundTo({multiplier.space-x} * 1 / {factor.space} * {factor.space})",
+      "type": "number"
+    },
+    "2": {
+      "value": "roundTo({multiplier.space-x} * 2 / {factor.space} * {factor.space})",
+      "type": "number"
+    },
+    "3": {
+      "value": "roundTo({multiplier.space-x} * 3 / {factor.space} * {factor.space})",
+      "type": "number"
+    },
+    "4": {
+      "value": "roundTo({multiplier.space-x} * 4 / {factor.space} * {factor.space})",
+      "type": "number"
+    },
+    "5": {
+      "value": "roundTo({multiplier.space-x} * 5 / {factor.space} * {factor.space})",
+      "type": "number"
+    },
+    "6": {
+      "value": "roundTo({multiplier.space-x} * 6 / {factor.space} * {factor.space})",
+      "type": "number"
+    },
+    "7": {
+      "value": "roundTo({multiplier.space-x} * 7 / {factor.space} * {factor.space})",
+      "type": "number"
+    },
+    "8": {
+      "value": "roundTo({multiplier.space-x} * 8 / {factor.space} * {factor.space})",
+      "type": "number"
+    },
+    "9": {
+      "value": "roundTo({multiplier.space-x} * 9 / {factor.space} * {factor.space})",
+      "type": "number"
+    },
+    "10": {
+      "value": "roundTo({multiplier.space-x} * 10 / {factor.space} * {factor.space})",
+      "type": "number"
+    },
+    "11": {
+      "value": "roundTo({multiplier.space-x} * 11 / {factor.space} * {factor.space})",
+      "type": "number"
+    },
+    "12": {
+      "value": "roundTo({multiplier.space-x} * 12 / {factor.space} * {factor.space})",
+      "type": "number"
+    },
+    "14": {
+      "value": "roundTo({multiplier.space-x} * 14 / {factor.space} * {factor.space})",
+      "type": "number"
+    },
+    "16": {
+      "value": "roundTo({multiplier.space-x} * 16 / {factor.space} * {factor.space})",
+      "type": "number"
+    },
+    "20": {
+      "value": "roundTo({multiplier.space-x} * 20 / {factor.space} * {factor.space})",
+      "type": "number"
+    },
+    "24": {
+      "value": "roundTo({multiplier.space-x} * 24 / {factor.space} * {factor.space})",
+      "type": "number"
+    },
+    "28": {
+      "value": "roundTo({multiplier.space-x} * 28 / {factor.space} * {factor.space})",
+      "type": "number"
+    },
+    "32": {
+      "value": "roundTo({multiplier.space-x} * 32 / {factor.space} * {factor.space})",
+      "type": "number"
+    },
+    "36": {
+      "value": "roundTo({multiplier.space-x} * 36 / {factor.space} * {factor.space})",
+      "type": "number"
+    },
+    "40": {
+      "value": "roundTo({multiplier.space-x} * 40 / {factor.space} * {factor.space})",
+      "type": "number"
+    },
+    "44": {
+      "value": "roundTo({multiplier.space-x} * 44 / {factor.space} * {factor.space})",
+      "type": "number"
+    },
+    "48": {
+      "value": "roundTo({multiplier.space-x} * 48 / {factor.space} * {factor.space})",
+      "type": "number"
+    },
+    "52": {
+      "value": "roundTo({multiplier.space-x} * 52 / {factor.space} * {factor.space})",
+      "type": "number"
+    },
+    "56": {
+      "value": "roundTo({multiplier.space-x} * 56 / {factor.space} * {factor.space})",
+      "type": "number"
+    },
+    "60": {
+      "value": "roundTo({multiplier.space-x} * 60 / {factor.space} * {factor.space})",
+      "type": "number"
+    },
+    "64": {
+      "value": "roundTo({multiplier.space-x} * 64 / {factor.space} * {factor.space})",
+      "type": "number"
+    },
+    "72": {
+      "value": "roundTo({multiplier.space-x} * 72 / {factor.space} * {factor.space})",
+      "type": "number"
+    },
+    "80": {
+      "value": "roundTo({multiplier.space-x} * 80 / {factor.space} * {factor.space})",
+      "type": "number"
+    },
+    "96": {
+      "value": "roundTo({multiplier.space-x} * 96 / {factor.space} * {factor.space})",
+      "type": "number"
+    },
+    "px": {
+      "value": "1",
+      "type": "number"
+    },
+    "0-5": {
+      "value": "roundTo({multiplier.space-x} * 0.5 / {factor.space} * {factor.space})",
+      "type": "number"
+    },
+    "1-5": {
+      "value": "roundTo({multiplier.space-x} * 1.5 / {factor.space} * {factor.space})",
+      "type": "number"
+    },
+    "2-5": {
+      "value": "roundTo({multiplier.space-x} * 2.5 / {factor.space} * {factor.space})",
+      "type": "number"
+    },
+    "3-5": {
+      "value": "roundTo({multiplier.space-x} * 3.5 / {factor.space} * {factor.space})",
+      "type": "number"
+    }
+  },
+  "space-y": {
+    "0": {
+      "value": "roundTo({multiplier.space-y} * 0 / {factor.space} * {factor.space})",
+      "type": "number"
+    },
+    "1": {
+      "value": "roundTo({multiplier.space-y} * 1 / {factor.space} * {factor.space})",
+      "type": "number"
+    },
+    "2": {
+      "value": "roundTo({multiplier.space-y} * 2 / {factor.space} * {factor.space})",
+      "type": "number"
+    },
+    "3": {
+      "value": "roundTo({multiplier.space-y} * 3 / {factor.space} * {factor.space})",
+      "type": "number"
+    },
+    "4": {
+      "value": "roundTo({multiplier.space-y} * 4 / {factor.space} * {factor.space})",
+      "type": "number"
+    },
+    "5": {
+      "value": "roundTo({multiplier.space-y} * 5 / {factor.space} * {factor.space})",
+      "type": "number"
+    },
+    "6": {
+      "value": "roundTo({multiplier.space-y} * 6 / {factor.space} * {factor.space})",
+      "type": "number"
+    },
+    "7": {
+      "value": "roundTo({multiplier.space-y} * 7 / {factor.space} * {factor.space})",
+      "type": "number"
+    },
+    "8": {
+      "value": "roundTo({multiplier.space-y} * 8 / {factor.space} * {factor.space})",
+      "type": "number"
+    },
+    "9": {
+      "value": "roundTo({multiplier.space-y} * 9 / {factor.space} * {factor.space})",
+      "type": "number"
+    },
+    "10": {
+      "value": "roundTo({multiplier.space-y} * 10 / {factor.space} * {factor.space})",
+      "type": "number"
+    },
+    "11": {
+      "value": "roundTo({multiplier.space-y} * 11 / {factor.space} * {factor.space})",
+      "type": "number"
+    },
+    "12": {
+      "value": "roundTo({multiplier.space-y} * 12 / {factor.space} * {factor.space})",
+      "type": "number"
+    },
+    "14": {
+      "value": "roundTo({multiplier.space-y} * 14 / {factor.space} * {factor.space})",
+      "type": "number"
+    },
+    "16": {
+      "value": "roundTo({multiplier.space-y} * 16 / {factor.space} * {factor.space})",
+      "type": "number"
+    },
+    "20": {
+      "value": "roundTo({multiplier.space-y} * 20 / {factor.space} * {factor.space})",
+      "type": "number"
+    },
+    "24": {
+      "value": "roundTo({multiplier.space-y} * 24 / {factor.space} * {factor.space})",
+      "type": "number"
+    },
+    "28": {
+      "value": "roundTo({multiplier.space-y} * 28 / {factor.space} * {factor.space})",
+      "type": "number"
+    },
+    "32": {
+      "value": "roundTo({multiplier.space-y} * 32 / {factor.space} * {factor.space})",
+      "type": "number"
+    },
+    "36": {
+      "value": "roundTo({multiplier.space-y} * 36 / {factor.space} * {factor.space})",
+      "type": "number"
+    },
+    "40": {
+      "value": "roundTo({multiplier.space-y} * 40 / {factor.space} * {factor.space})",
+      "type": "number"
+    },
+    "44": {
+      "value": "roundTo({multiplier.space-y} * 44 / {factor.space} * {factor.space})",
+      "type": "number"
+    },
+    "48": {
+      "value": "roundTo({multiplier.space-y} * 48 / {factor.space} * {factor.space})",
+      "type": "number"
+    },
+    "52": {
+      "value": "roundTo({multiplier.space-y} * 52 / {factor.space} * {factor.space})",
+      "type": "number"
+    },
+    "56": {
+      "value": "roundTo({multiplier.space-y} * 56 / {factor.space} * {factor.space})",
+      "type": "number"
+    },
+    "60": {
+      "value": "roundTo({multiplier.space-y} * 60 / {factor.space} * {factor.space})",
+      "type": "number"
+    },
+    "64": {
+      "value": "roundTo({multiplier.space-y} * 64 / {factor.space} * {factor.space})",
+      "type": "number"
+    },
+    "72": {
+      "value": "roundTo({multiplier.space-y} * 72 / {factor.space} * {factor.space})",
+      "type": "number"
+    },
+    "80": {
+      "value": "roundTo({multiplier.space-y} * 80 / {factor.space} * {factor.space})",
+      "type": "number"
+    },
+    "96": {
+      "value": "roundTo({multiplier.space-y} * 96 / {factor.space} * {factor.space})",
+      "type": "number"
+    },
+    "px": {
+      "value": "1",
+      "type": "number"
+    },
+    "0-5": {
+      "value": "roundTo({multiplier.space-y} * 0.5 / {factor.space} * {factor.space})",
+      "type": "number"
+    },
+    "1-5": {
+      "value": "roundTo({multiplier.space-y} * 1.5 / {factor.space} * {factor.space})",
+      "type": "number"
+    },
+    "2-5": {
+      "value": "roundTo({multiplier.space-y} * 2.5 / {factor.space} * {factor.space})",
+      "type": "number"
+    },
+    "3-5": {
+      "value": "roundTo({multiplier.space-y} * 3.5 / {factor.space} * {factor.space})",
+      "type": "number"
+    }
+  },
+  "w": {
+    "0": {
+      "value": "roundTo({multiplier.w} * 0 / {factor.w} * {factor.w})",
+      "type": "number"
+    },
+    "1": {
+      "value": "roundTo({multiplier.w} * 1 / {factor.w} * {factor.w})",
+      "type": "number"
+    },
+    "2": {
+      "value": "roundTo({multiplier.w} * 2/ {factor.w} * {factor.w})",
+      "type": "number"
+    },
+    "3": {
+      "value": "roundTo({multiplier.w} * 3 / {factor.w} * {factor.w})",
+      "type": "number"
+    },
+    "4": {
+      "value": "roundTo({multiplier.w} * 4 / {factor.w} * {factor.w})",
+      "type": "number"
+    },
+    "5": {
+      "value": "roundTo({multiplier.w} * 5 / {factor.w} * {factor.w})",
+      "type": "number"
+    },
+    "6": {
+      "value": "roundTo({multiplier.w} * 6 / {factor.w} * {factor.w})",
+      "type": "number"
+    },
+    "7": {
+      "value": "roundTo({multiplier.w} * 7 / {factor.w} * {factor.w})",
+      "type": "number"
+    },
+    "8": {
+      "value": "roundTo({multiplier.w} * 8 / {factor.w} * {factor.w})",
+      "type": "number"
+    },
+    "9": {
+      "value": "roundTo({multiplier.w} * 9 / {factor.w} * {factor.w})",
+      "type": "number"
+    },
+    "10": {
+      "value": "roundTo({multiplier.w} * 10 / {factor.w} * {factor.w})",
+      "type": "number"
+    },
+    "11": {
+      "value": "roundTo({multiplier.w} * 11 / {factor.w} * {factor.w})",
+      "type": "number"
+    },
+    "12": {
+      "value": "roundTo({multiplier.w} * 12 / {factor.w} * {factor.w})",
+      "type": "number"
+    },
+    "14": {
+      "value": "roundTo({multiplier.w} * 14 / {factor.w} * {factor.w})",
+      "type": "number"
+    },
+    "16": {
+      "value": "roundTo({multiplier.w} * 16 / {factor.w} * {factor.w})",
+      "type": "number"
+    },
+    "20": {
+      "value": "roundTo({multiplier.w} * 20 / {factor.w} * {factor.w})",
+      "type": "number"
+    },
+    "24": {
+      "value": "roundTo({multiplier.w} * 24 / {factor.w} * {factor.w})",
+      "type": "number"
+    },
+    "28": {
+      "value": "roundTo({multiplier.w} * 28 / {factor.w} * {factor.w})",
+      "type": "number"
+    },
+    "32": {
+      "value": "roundTo({multiplier.w} * 32 / {factor.w} * {factor.w})",
+      "type": "number"
+    },
+    "36": {
+      "value": "roundTo({multiplier.w} * 36 / {factor.w} * {factor.w})",
+      "type": "number"
+    },
+    "44": {
+      "value": "roundTo({multiplier.w} * 44 / {factor.w} * {factor.w})",
+      "type": "number"
+    },
+    "48": {
+      "value": "roundTo({multiplier.w} * 48 / {factor.w} * {factor.w})",
+      "type": "number"
+    },
+    "52": {
+      "value": "roundTo({multiplier.w} * 52 / {factor.w} * {factor.w})",
+      "type": "number"
+    },
+    "56": {
+      "value": "roundTo({multiplier.w} * 56 / {factor.w} * {factor.w})",
+      "type": "number"
+    },
+    "64": {
+      "value": "roundTo({multiplier.w} * 64 / {factor.w} * {factor.w})",
+      "type": "number"
+    },
+    "72": {
+      "value": "roundTo({multiplier.w} * 72 / {factor.w} * {factor.w})",
+      "type": "number"
+    },
+    "80": {
+      "value": "roundTo({multiplier.w} * 80 / {factor.w} * {factor.w})",
+      "type": "number"
+    },
+    "96": {
+      "value": "roundTo({multiplier.w} * 96 / {factor.w} * {factor.w})",
+      "type": "number"
+    },
+    "px": {
+      "value": "1",
+      "type": "number"
+    },
+    "0-5": {
+      "value": "roundTo({multiplier.w} * 0.5 / {factor.w} * {factor.w})",
+      "type": "number"
+    },
+    "1-5": {
+      "value": "roundTo({multiplier.w} * 1.5 / {factor.w} * {factor.w})",
+      "type": "number"
+    },
+    "2-5": {
+      "value": "roundTo({multiplier.w} * 2.5 / {factor.w} * {factor.w})",
+      "type": "number"
+    },
+    "3-5": {
+      "value": "roundTo({multiplier.w} * 3.5 / {factor.w} * {factor.w})",
+      "type": "number"
+    }
+  },
+  "h": {
+    "0": {
+      "value": "roundTo({multiplier.h} * 0 / {factor.h} * {factor.h})",
+      "type": "number"
+    },
+    "1": {
+      "value": "roundTo({multiplier.h} * 1 / {factor.h} * {factor.h})",
+      "type": "number"
+    },
+    "2": {
+      "value": "roundTo({multiplier.h} * 2/ {factor.h} * {factor.h})",
+      "type": "number"
+    },
+    "3": {
+      "value": "roundTo({multiplier.h} * 3 / {factor.h} * {factor.h})",
+      "type": "number"
+    },
+    "4": {
+      "value": "roundTo({multiplier.h} * 4 / {factor.h} * {factor.h})",
+      "type": "number"
+    },
+    "5": {
+      "value": "roundTo({multiplier.h} * 5 / {factor.h} * {factor.h})",
+      "type": "number"
+    },
+    "6": {
+      "value": "roundTo({multiplier.h} * 6 / {factor.h} * {factor.h})",
+      "type": "number"
+    },
+    "7": {
+      "value": "roundTo({multiplier.h} * 7 / {factor.h} * {factor.h})",
+      "type": "number"
+    },
+    "8": {
+      "value": "roundTo({multiplier.h} * 8 / {factor.h} * {factor.h})",
+      "type": "number"
+    },
+    "9": {
+      "value": "roundTo({multiplier.h} * 9 / {factor.h} * {factor.h})",
+      "type": "number"
+    },
+    "10": {
+      "value": "roundTo({multiplier.h} * 10 / {factor.h} * {factor.h})",
+      "type": "number"
+    },
+    "11": {
+      "value": "roundTo({multiplier.h} * 11 / {factor.h} * {factor.h})",
+      "type": "number"
+    },
+    "12": {
+      "value": "roundTo({multiplier.h} * 12 / {factor.h} * {factor.h})",
+      "type": "number"
+    },
+    "14": {
+      "value": "roundTo({multiplier.h} * 14 / {factor.h} * {factor.h})",
+      "type": "number"
+    },
+    "16": {
+      "value": "roundTo({multiplier.h} * 16 / {factor.h} * {factor.h})",
+      "type": "number"
+    },
+    "20": {
+      "value": "roundTo({multiplier.h} * 20 / {factor.h} * {factor.h})",
+      "type": "number"
+    },
+    "24": {
+      "value": "roundTo({multiplier.h} * 24 / {factor.h} * {factor.h})",
+      "type": "number"
+    },
+    "28": {
+      "value": "roundTo({multiplier.h} * 28 / {factor.h} * {factor.h})",
+      "type": "number"
+    },
+    "32": {
+      "value": "roundTo({multiplier.h} * 32 / {factor.h} * {factor.h})",
+      "type": "number"
+    },
+    "36": {
+      "value": "roundTo({multiplier.h} * 36 / {factor.h} * {factor.h})",
+      "type": "number"
+    },
+    "44": {
+      "value": "roundTo({multiplier.h} * 44 / {factor.h} * {factor.h})",
+      "type": "number"
+    },
+    "48": {
+      "value": "roundTo({multiplier.h} * 48 / {factor.h} * {factor.h})",
+      "type": "number"
+    },
+    "52": {
+      "value": "roundTo({multiplier.h} * 52 / {factor.h} * {factor.h})",
+      "type": "number"
+    },
+    "56": {
+      "value": "roundTo({multiplier.h} * 56 / {factor.h} * {factor.h})",
+      "type": "number"
+    },
+    "64": {
+      "value": "roundTo({multiplier.h} * 64 / {factor.h} * {factor.h})",
+      "type": "number"
+    },
+    "72": {
+      "value": "roundTo({multiplier.h} * 72 / {factor.h} * {factor.h})",
+      "type": "number"
+    },
+    "80": {
+      "value": "roundTo({multiplier.h} * 80 / {factor.h} * {factor.h})",
+      "type": "number"
+    },
+    "96": {
+      "value": "roundTo({multiplier.h} * 96 / {factor.h} * {factor.h})",
+      "type": "number"
+    },
+    "px": {
+      "value": "1",
+      "type": "number"
+    },
+    "0-5": {
+      "value": "roundTo({multiplier.h} * 0.5 / {factor.h} * {factor.h})",
+      "type": "number"
+    },
+    "1-5": {
+      "value": "roundTo({multiplier.h} * 1.5 / {factor.h} * {factor.h})",
+      "type": "number"
+    },
+    "2-5": {
+      "value": "roundTo({multiplier.h} * 2.5 / {factor.h} * {factor.h})",
+      "type": "number"
+    },
+    "3-5": {
+      "value": "roundTo({multiplier.h} * 3.5 / {factor.h} * {factor.h})",
+      "type": "number"
+    }
+  },
+  "rounded": {
+    "none": {
+      "value": "0",
+      "type": "number"
+    },
+    "xs": {
+      "value": "0.25 * {rem}",
+      "type": "number"
+    },
+    "sm": {
+      "value": "0.5 * {rem}",
+      "type": "number"
+    },
+    "md": {
+      "value": "0.75 * {rem}",
+      "type": "number"
+    },
+    "lg": {
+      "value": "1 * {rem}",
+      "type": "number"
+    },
+    "lgx": {
+      "value": "1.25 * {rem}",
+      "type": "number"
+    },
+    "xl": {
+      "value": "1.5 * {rem}",
+      "type": "number"
+    },
+    "2xl": {
+      "value": "2 * {rem}",
+      "type": "number"
+    },
+    "3xl": {
+      "value": "3 * {rem}",
+      "type": "number"
+    },
+    "4xl": {
+      "value": "4 * {rem}",
+      "type": "number"
+    },
+    "full": {
+      "value": "1000 * {rem}",
+      "type": "number"
+    },
+    "action-1": {
+      "value": "0.75 * {rem}",
+      "type": "number"
+    },
+    "action-2": {
+      "value": "0.75 * {rem}",
+      "type": "number"
+    }
+  }
+}

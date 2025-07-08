@@ -1,0 +1,10 @@
+{
+  "tokenSetOrder": [
+    "1. TailwindCSS/Default",
+    "2. Theme/Core",
+    "2. Theme/WAVE",
+    "2. Theme/CRM",
+    "3. Mode/Dark",
+    "3. Mode/Light"
+  ]
+}

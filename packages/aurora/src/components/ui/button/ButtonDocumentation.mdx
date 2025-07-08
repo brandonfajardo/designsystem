@@ -1,0 +1,94 @@
+import {
+  Meta,
+  Title,
+  Primary,
+  Controls,
+  Stories,
+  Canvas,
+} from '@storybook/addon-docs/blocks'
+
+import * as ButtonAllStories from './Button.stories';
+
+
+<>
+
+<Title />
+
+
+## Overview
+
+Buttons are clickable elements that are used to trigger actions. They communicate calls to action to the user and allow users to interact with pages in a
+variety of ways. Button labels express what action will occur when the user interacts with it.
+
+<Canvas of={ButtonAllStories.Sizes} />
+<Canvas of={ButtonAllStories.Variants} />
+
+## Component API
+
+The component accepts the following props:
+
+<Canvas of={ButtonAllStories.Default} />
+<Controls />
+
+※ I'll write how to use advanced props.
+
+### Button asChild
+
+The `asChild` prop allows you to render the button as a child of another component.
+The following example shows how to render a button as a child of an anchor tag.
+
+```tsx title="Button asChild"
+<Button asChild>
+  <a href="/">Button</a>
+</Button>
+```
+
+<Canvas of={ButtonAllStories.Default} />
+
+### Button Loading
+
+The `loading` prop allows you to show a loading state on the button.
+The following example using Tanstack Query shows how to render a button in a loading state.
+
+```tsx title="Button loading"
+const { isPending, isSuccess, isError, data, error } = useQuery({
+  queryKey: ['posts'],
+  queryFn: () => fetchPosts(),
+})
+
+<Button loading={isPending}>
+  {isPending ? 'Loading...' : 'Button'}
+</Button>
+```
+
+<Canvas of={ButtonAllStories.Loading} />
+
+### Button Inverse
+
+The `inverse` prop allows you to render the button with an inverse color scheme on a dark background.
+
+```tsx title="Button inverse"
+<Button inverse>
+  Button
+</Button>
+```
+
+<div className="bg-[#021934] p-6 rounded">
+  <Canvas of={ButtonAllStories.Inverse} inline />
+</div>
+
+### Button Left Icon
+
+The `leftIcon` prop allows you to render an icon on the left side of the button.
+
+```tsx title="Button left icon"
+<Button
+  leftIcon={<Icon name="Atom" />}
+>
+  Button
+</Button>
+```
+
+<Canvas of={ButtonAllStories.LeftIcon} />
+
+</>

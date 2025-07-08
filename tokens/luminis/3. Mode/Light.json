@@ -1,0 +1,186 @@
+{
+  "base": {
+    "accent": {
+      "value": "{colors.accent-light}",
+      "type": "color"
+    },
+    "accent-foreground": {
+      "value": "{colors.accent-foreground-light}",
+      "type": "color"
+    },
+    "background": {
+      "value": "{colors.background-light}",
+      "type": "color"
+    },
+    "border": {
+      "value": "{colors.border-light}",
+      "type": "color"
+    },
+    "card": {
+      "value": "{colors.card-light}",
+      "type": "color"
+    },
+    "card-foreground": {
+      "value": "{colors.card-foreground-light}",
+      "type": "color"
+    },
+    "destructive": {
+      "value": "{colors.destructive-light}",
+      "type": "color"
+    },
+    "destructive-foreground": {
+      "value": "{colors.destructive-foreground-light}",
+      "type": "color"
+    },
+    "success": {
+      "value": "{colors.success-light}",
+      "type": "color"
+    },
+    "success-foreground": {
+      "value": "{colors.success-foreground-light}",
+      "type": "color"
+    },
+    "foreground": {
+      "value": "{colors.foreground-light}",
+      "type": "color"
+    },
+    "input": {
+      "value": "{colors.input-light}",
+      "type": "color"
+    },
+    "muted": {
+      "value": "{colors.muted-light}",
+      "type": "color"
+    },
+    "muted-foreground": {
+      "value": "{colors.muted-foreground-light}",
+      "type": "color"
+    },
+    "popover": {
+      "value": "{colors.popover-light}",
+      "type": "color"
+    },
+    "popover-foreground": {
+      "value": "{colors.popover-foreground-light}",
+      "type": "color"
+    },
+    "primary": {
+      "value": "{colors.primary-light}",
+      "type": "color"
+    },
+    "primary-foreground": {
+      "value": "{colors.primary-foreground-light}",
+      "type": "color"
+    },
+    "ring": {
+      "value": "{colors.ring-light}",
+      "type": "color"
+    },
+    "secondary": {
+      "value": "{colors.secondary-light}",
+      "type": "color"
+    },
+    "secondary-foreground": {
+      "value": "{colors.secondary-foreground-light}",
+      "type": "color"
+    },
+    "ring-offset": {
+      "value": "{tailwind colors.base.white}",
+      "type": "color"
+    },
+    "chart-1": {
+      "value": "{colors.chart-1-light}",
+      "type": "color"
+    },
+    "chart-2": {
+      "value": "{colors.chart-2-light}",
+      "type": "color"
+    },
+    "chart-3": {
+      "value": "{colors.chart-3-light}",
+      "type": "color"
+    },
+    "chart-4": {
+      "value": "{colors.chart-4-light}",
+      "type": "color"
+    },
+    "chart-5": {
+      "value": "{colors.chart-5-light}",
+      "type": "color"
+    },
+    "sidebar-primary-foreground": {
+      "value": "{colors.sidebar-primary-foreground-light}",
+      "type": "color"
+    },
+    "sidebar-primary": {
+      "value": "{colors.sidebar-primary-light}",
+      "type": "color"
+    },
+    "sidebar-foreground": {
+      "value": "{colors.sidebar-foreground-light}",
+      "type": "color"
+    },
+    "sidebar-background": {
+      "value": "{colors.sidebar-background-light}",
+      "type": "color"
+    },
+    "sidebar-accent": {
+      "value": "{colors.sidebar-accent-light}",
+      "type": "color"
+    },
+    "sidebar-accent-foreground": {
+      "value": "{colors.sidebar-accent-foreground-light}",
+      "type": "color"
+    },
+    "sidebar-border": {
+      "value": "{colors.sidebar-border-light}",
+      "type": "color"
+    },
+    "sidebar-ring": {
+      "value": "{colors.sidebar-ring-light}",
+      "type": "color"
+    },
+    "link": {
+      "value": "{colors.link-light}",
+      "type": "color"
+    }
+  },
+  "alpha": {
+    "10": {
+      "value": "#ffffffe6",
+      "type": "color"
+    },
+    "20": {
+      "value": "#ffffffcc",
+      "type": "color"
+    },
+    "30": {
+      "value": "#ffffffb3",
+      "type": "color"
+    },
+    "40": {
+      "value": "#ffffff99",
+      "type": "color"
+    },
+    "50": {
+      "value": "#ffffff80",
+      "type": "color"
+    },
+    "60": {
+      "value": "#ffffff66",
+      "type": "color"
+    },
+    "70": {
+      "value": "#ffffff4d",
+      "type": "color"
+    },
+    "80": {
+      "value": "#ffffff33",
+      "type": "color"
+    },
+    "90": {
+      "value": "#ffffff1a",
+      "type": "color"
+    }
+  }
+}
