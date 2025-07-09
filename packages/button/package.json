@@ -1,0 +1,45 @@
+{
+  "name": "@brandonfajardo/button",
+  "version": "2.2.10",
+  "description": "This package implements react components based on MUI",
+  "type": "module",
+  "main": "lib/index.cjs",
+  "exports": {
+    "import": {
+      "default": "./lib/index.esm.js",
+      "types": "./lib/types/index.d.ts"
+    },
+    "require": {
+      "default": "./lib/index.cjs",
+      "types": "./lib/types/index.d.ts"
+    }
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "rollup -c --bundleConfigAsCjs",
+    "release-package": "npm run build && npx changeset publish"
+  },
+  "author": "codeef",
+  "license": "MIT",
+  "dependencies": {
+    "@emotion/react": "11.11.3",
+    "@emotion/styled": "11.11.0",
+    "@mui/material": "5.15.0",
+    "@radix-ui/react-slot": "^1.2.3",
+    "class-variance-authority": "^0.7.1",
+    "lucide-react": "^0.525.0",
+    "tailwind-merge": "^3.3.1"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.27.1",
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.3.1",
+    "rollup": "^4.13.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-delete": "^2.0.0",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "typescript": "^5.4.2"
+  }
+}

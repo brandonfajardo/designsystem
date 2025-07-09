@@ -1,0 +1,13 @@
+import { Button } from './Button';
+import type { ButtonProps } from './ButtonTypes';
+import type { Meta, StoryObj } from '@storybook/react-vite';
+declare const meta: Meta<typeof Button>;
+type Story = StoryObj<ButtonProps>;
+export declare const Default: Story;
+export declare const Loading: Story;
+export declare const Danger: Story;
+export declare const Inverse: Story;
+export declare const LeftIcon: Story;
+export declare const Variants: Story;
+export declare const Sizes: Story;
+export default meta;
