@@ -1,10 +1,40 @@
 {
-  "extends": "../../tsconfig.json",
   "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["DOM", "ES2023"],
+    "module": "ESNext",
+    "paths": {
+      "@aurora/utils": ["../aurora/src/lib/utils"]
+    },
+    "skipLibCheck": true,
+    "moduleResolution": "bundler",
+    "verbatimModuleSyntax": true,
+    "moduleDetection": "force",
+    "jsx": "react-jsx",
     "declaration": true,
-    "declarationDir": "lib/types",
-    "outDir": "lib",
-    "rootDir": "."
+    "declarationDir": "dist",
+    "outDir": "dist",
+     "rootDir": "."
   },
-  "include": ["**/*.ts", "**/*.tsx"]
+  "include": ["index.ts"],
+  "exclude": ["node_modules", "dist", "**/*.test.tsx", "**/*.stories.tsx"]
 }
+// {
+//   "compilerOptions": {
+//     "target": "ES2022",
+//     "lib": ["DOM", "ES2023"],
+//     "module": "ESNext",
+//     "skipLibCheck": true,
+//     "moduleResolution": "bundler",
+//     "verbatimModuleSyntax": true,
+//     "moduleDetection": "force",
+//     "jsx": "react-jsx",
+//     "declaration": true,
+//     "emitDeclarationOnly": true,
+//     "declarationDir": "temp-types",
+//     "outDir": "temp-types",
+//     "rootDir": "."
+//   },
+//   "include": ["index.ts"],
+//   "exclude": ["node_modules", "dist", "**/*.test.tsx", "**/*.stories.tsx"]
+// }
