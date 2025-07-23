@@ -4,7 +4,7 @@ import type {
   Meta,
   StoryObj,
 } from '@storybook/react-vite'
-import Icon from '../IconWrapper/Icon'
+import { Icon } from '@brandonfajardo/icon'
 import {
   buttonSizeProps,
   buttonVariantProps,

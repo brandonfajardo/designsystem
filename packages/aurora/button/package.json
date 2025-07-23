@@ -1,18 +1,18 @@
 {
   "name": "@brandonfajardo/button",
-  "version": "2.2.19",
+  "version": "2.2.23",
   "description": "This package implements react components based on MUI",
   "main": "dist/index.cjs.js",
-  "module": "dist/index.es.js",
+  "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
   "type": "module",
-"exports": {
-  ".": {
-    "import": "./dist/index.es.js",
-    "require": "./dist/index.cjs.js",
-    "types": "./dist/index.d.ts"
-  }
-},
+  "exports": {
+    ".": {
+      "import": "./dist/index.esm.js",
+      "require": "./dist/index.cjs.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
   "files": [
     "dist"
   ],
@@ -24,12 +24,15 @@
   "author": "codeef",
   "license": "MIT",
   "dependencies": {
+    "@brandonfajardo/icon": "^1.0.3",
     "@radix-ui/react-slot": "^1.2.3",
     "class-variance-authority": "^0.7.1",
+    "path": "^0.12.7",
     "tailwind-merge": "^3.3.1"
   },
   "devDependencies": {
     "@changesets/cli": "^2.27.1",
+    "@rollup/plugin-alias": "^5.1.1",
     "@rollup/plugin-commonjs": "^25.0.7",
     "@rollup/plugin-node-resolve": "^15.3.1",
     "@rollup/plugin-terser": "^0.4.4",
