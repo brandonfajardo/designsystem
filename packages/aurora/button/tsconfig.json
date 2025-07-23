@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["DOM", "ES2023"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+    "moduleResolution": "bundler",
+    "verbatimModuleSyntax": true,
+    "moduleDetection": "force",
+    "jsx": "react-jsx",
+    "declaration": true,
+    "declarationDir": "dist",
+    "outDir": "dist",
+    //  "rootDir": "."
+  },
+"extends": "../../../tsconfig.base.json",
+  "include": ["index.ts"],
+  "exclude": ["node_modules", "dist", "**/*.test.tsx", "**/*.stories.tsx"]
+}
+// {
+//   "compilerOptions": {
+//     "target": "ES2022",
+//     "lib": ["DOM", "ES2023"],
+//     "module": "ESNext",
+//     "skipLibCheck": true,
+//     "moduleResolution": "bundler",
+//     "verbatimModuleSyntax": true,
+//     "moduleDetection": "force",
+//     "jsx": "react-jsx",
+//     "declaration": true,
+//     "declarationDir": "dist",
+//     "outDir": "dist",
+//     "rootDir": "../../packages",              // 👈 allow importing from sibling packages
+//     "baseUrl": "../../",                       // 👈 root of monorepo
+//     "paths": {
+//       "@aurora/utils": ["packages/aurora/src/lib/utils"] // 👈 alias usage
+//     }
+//   },
+//   "include": ["../../packages/button/index.ts"],
+//   "exclude": ["node_modules", "dist", "**/*.test.tsx", "**/*.stories.tsx"]
+// }

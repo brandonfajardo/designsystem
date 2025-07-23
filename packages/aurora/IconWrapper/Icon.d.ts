@@ -10,4 +10,4 @@ export type IconProps = {
     strokeWidth?: number;
 };
 declare const Icon: React.FC<IconProps>;
-export default Icon;
+export { Icon };

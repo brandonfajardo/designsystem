@@ -2,9 +2,9 @@ import React, {
   forwardRef,
 } from 'react'
 import { Slot } from '@radix-ui/react-slot'
-import { cn } from '../aurora/src/lib/utils'
+
 import type { ButtonProps } from './ButtonTypes'
-import Icon from '../IconWrapper/Icon'
+import { Icon } from '@brandonfajardo/icon'
 import {
   calcIconSize,
   getButtonIcon,
@@ -14,6 +14,17 @@ import {
   buttonSizeProps,
   buttonVariantProps,
 } from './buttonPropsConst'
+// import {
+//   clsx,
+//   type ClassValue,t
+// } from 'clsx'
+// import { twMerge } from 'tailwind-merge'
+import { cn } from '@shared/utils/cn'
+// function cn(
+//   ...inputs: ClassValue[]
+// ) {
+//   return twMerge(clsx(inputs))
+// }
 
 /**
  * Renders the content of the button based on the size, loading state, and children.

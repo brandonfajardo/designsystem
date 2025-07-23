@@ -6,16 +6,16 @@ export default {
   input: './index.ts',    // Entry file where your component/types is exported
   output: [
     {
-      file: 'lib/index.cjs.js',
+      file: 'dist/index.cjs.js',
       format: 'cjs'
     },
     {
-      file: 'lib/index.esm.js',
+      file: 'dist/index.esm.js',
       format: 'esm'
     }
   ],
   plugins: [
-    del({ targets: ['lib/*', 'types/*'] }),   // Cleans output folders before build
+    del({ targets: ['dist/*', 'types/*'] }),   // Cleans output folders before build
     resolve(), // Needed to include dependencies like clsx, tailwind-merge, etc., into the bundle if not marked as external
     typescript({
       useTsconfigDeclarationDir: true,

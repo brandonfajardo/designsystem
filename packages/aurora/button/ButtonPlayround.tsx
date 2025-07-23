@@ -3,7 +3,7 @@ import {
   buttonSizeProps,
   buttonVariantProps,
 } from './buttonPropsConst'
-import Icon from '../IconWrapper/Icon'
+import { Icon } from '@brandonfajardo/icon'
 
 export const ButtonPlayround =
   ({

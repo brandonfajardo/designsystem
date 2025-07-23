@@ -1,6 +1,6 @@
 import * as LucideIcons from 'lucide-react'
 import type { LucideProps } from 'lucide-react'
-import { cn } from '../aurora/src/lib/utils'
+import { cn } from '@shared/utils'
 
 export type IconSizeProps =
   | 8
@@ -79,4 +79,4 @@ const Icon: React.FC<
   )
 }
 
-export default Icon
+export { Icon }

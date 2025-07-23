@@ -6,7 +6,7 @@ import {
 import type {
   IconProps,
   IconSizeProps,
-} from '../IconWrapper/Icon'
+} from '@brandonfajardo/icon'
 import { buttonSizeProps } from './buttonPropsConst'
 
 export const calcIconSize = (
